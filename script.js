@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const RELATIONSHIP_START = new Date('2025-10-12T00:00:00');
 
   const LOVE_MESSAGES = [
-    'I love you sayang 💜', 'You are my everything ❤️', 'Together forever 💕',
-    'My heart belongs to you 💖', 'You are amazing 🥰', 'You are beautiful ✨',
+    'I love you so much sayang 💜', 'You are my everything ❤️', 'Together forever 💕',
+    'My heart belongs to you 💖', 'You are amazing 🥰', 'Sayang tantekk sangatt ✨',
     'My favorite 🌸', 'Infinitely yours 💫', 'You are my happiness 🦋', 'My busyuk Masham 🌹'
   ];
 
