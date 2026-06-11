@@ -17,12 +17,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ========== CONFIG ========== */
   // ★ RELATIONSHIP START DATE — change here ★
-  const RELATIONSHIP_START = new Date('2025-02-14T00:00:00');
+  const RELATIONSHIP_START = new Date('2025-10-12T00:00:00');
 
   const LOVE_MESSAGES = [
-    'I love you 💜', 'You are my everything ❤️', 'Together forever 💕',
-    'My heart is yours 💖', 'Adore you 🥰', 'You are beautiful ✨',
-    'My favorite 🌸', 'Infinitely yours 💫', 'You are my happiness 🦋', 'Love beyond words 🌹'
+    'I love you sayang 💜', 'You are my everything ❤️', 'Together forever 💕',
+    'My heart belongs to you 💖', 'You are amazing 🥰', 'You are beautiful ✨',
+    'My favorite 🌸', 'Infinitely yours 💫', 'You are my happiness 🦋', 'My busyuk Masham 🌹'
   ];
 
   const LYRICS = [
