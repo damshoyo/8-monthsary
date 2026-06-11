@@ -16,40 +16,40 @@ document.addEventListener('DOMContentLoaded', () => {
   const ctx            = heartsCanvas.getContext('2d');
 
   /* ========== CONFIG ========== */
-  // ★ ДАТА НАЧАЛА ОТНОШЕНИЙ — измените здесь ★
+  // ★ RELATIONSHIP START DATE — change here ★
   const RELATIONSHIP_START = new Date('2025-02-14T00:00:00');
 
   const LOVE_MESSAGES = [
-    'Я люблю тебя 💜', 'Ты — моё всё ❤️', 'Навсегда вместе 💕',
-    'Моё сердце — твоё 💖', 'Обожаю тебя 🥰', 'Ты прекрасна ✨',
-    'Моя любимая 🌸', 'Бесконечно твой 💫', 'Ты — счастье 🦋', 'Люблю без слов 🌹'
+    'I love you 💜', 'You are my everything ❤️', 'Together forever 💕',
+    'My heart is yours 💖', 'Adore you 🥰', 'You are beautiful ✨',
+    'My favorite 🌸', 'Infinitely yours 💫', 'You are my happiness 🦋', 'Love beyond words 🌹'
   ];
 
   const LYRICS = [
-    { time: 30.0, text: "Наблюдаю за рассветом на побережье," },
-    { time: 33.9, text: "Пока мы оба стареем." },
-    { time: 37.5, text: "Я не в силах описать свои чувства," },
-    { time: 41.6, text: "Всё, что я знаю — мы возвращаемся домой." },
-    { time: 45.4, text: "Поэтому, пожалуйста, не отпускай меня," },
-    { time: 49.2, text: "Не отпускай меня..." },
-    { time: 53.2, text: "И если всё верно, мне плевать, сколько это займёт," },
-    { time: 60.7, text: "Пока я рядом с тобой," },
-    { time: 64.2, text: "Улыбка не сходит с моего лица." },
-    { time: 68.1, text: "Прибереги свои слёзы, всё будет хорошо," },
-    { time: 72.1, text: "Всё, что я знаю — ты здесь, со мной." },
-    { time: 79.9, text: "Смотрю на рассвет, пока мы стареем, о-о..." },
-    { time: 87.7, text: "Я не могу описать, о-о..." },
-    { time: 91.8, text: "Я хотел бы прожить каждое воспоминание о тебе" },
-    { time: 95.5, text: "Ещё один раз, прежде чем ты улетишь по ветру." },
-    { time: 99.5, text: "И всё то время, что мы провели," },
-    { time: 103.3, text: "Ожидая момента, когда свет заберёт нас," },
-    { time: 107.2, text: "Это были лучшие мгновения моей жизни." },
-    { time: 111.0, text: "Мне всё равно, сколько времени это займёт," },
-    { time: 118.7, text: "Пока я рядом с тобой," },
-    { time: 122.3, text: "Улыбка не сходит с моего лица." },
-    { time: 126.1, text: "Всё будет хорошо, просто не плачь," },
-    { time: 130.2, text: "Ведь ты здесь, ты со мной..." },
-    { time: 134.0, text: "Я не могу описать..." }
+    { time: 30.0, text: "Watching the sunrise on the coast," },
+    { time: 33.9, text: "While we're both growing older." },
+    { time: 37.5, text: "I can't quite describe my feelings," },
+    { time: 41.6, text: "All I know is that we're heading home." },
+    { time: 45.4, text: "So please, don't let me go," },
+    { time: 49.2, text: "Don't let me go..." },
+    { time: 53.2, text: "And if everything's right, I don't care how long it takes," },
+    { time: 60.7, text: "As long as I am next to you," },
+    { time: 64.2, text: "The smile never leaves my face." },
+    { time: 68.1, text: "Save your tears, everything will be fine," },
+    { time: 72.1, text: "All I know is you are here with me." },
+    { time: 79.9, text: "Watching the sunrise while we grow older, oh-oh..." },
+    { time: 87.7, text: "I can't quite describe, oh-oh..." },
+    { time: 91.8, text: "I'd want to live through every memory of you" },
+    { time: 95.5, text: "One more time before you drift away into the wind." },
+    { time: 99.5, text: "And all that time that we spent," },
+    { time: 103.3, text: "Waiting for the moment when the light would take us," },
+    { time: 107.2, text: "Those were the best moments of my life." },
+    { time: 111.0, text: "I don't care how long it takes," },
+    { time: 118.7, text: "As long as I am next to you," },
+    { time: 122.3, text: "The smile never leaves my face." },
+    { time: 126.1, text: "Everything will be fine, just don't cry," },
+    { time: 130.2, text: "Because you are here, you are with me..." },
+    { time: 134.0, text: "I can't quite describe..." }
   ];
 
   /* ========== STATE ========== */
@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     const popup = document.createElement('div');
     popup.className = 'love-popup';
-    popup.textContent = '💜 Я люблю тебя бесконечно 💜';
+    popup.textContent = '💜 I love you endlessly 💜';
     popup.style.left = x + 'px'; popup.style.top = (y-30) + 'px';
     popup.style.fontSize = '1.4rem';
     document.body.appendChild(popup);
@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', () => {
     lightbox.className = 'lightbox';
     lightbox.innerHTML = `
       <button class="lightbox-close">✕</button>
-      <img class="lightbox-img" src="" alt="Фото" />
+      <img class="lightbox-img" src="" alt="Photo" />
     `;
     document.body.appendChild(lightbox);
 
@@ -418,7 +418,7 @@ document.addEventListener('DOMContentLoaded', () => {
       loadingBar.style.width = pct + '%';
       loadingPercent.textContent = pct + '%';
       if (loaded >= total) {
-        // Все загружено — плавно скрываем
+        // Everything is loaded — smoothly fading out
         setTimeout(() => {
           loadingScreen.classList.add('fade-out');
           setTimeout(() => {
@@ -430,18 +430,18 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
 
-    // Загрузка фото
+    // Photo loading
     imageSrcs.forEach(src => {
       const img = new Image();
       img.onload  = tick;
-      img.onerror = tick; // не блокируем если файл не найден
+      img.onerror = tick; // don't block if file is not found
       img.src = src;
     });
 
-    // Загрузка видео (ждём canplaythrough)
+    // Video loading (waiting for canplaythrough)
     videoEls.forEach(video => {
       video.preload = 'auto';
-      if (video.readyState >= 3) { // уже готово
+      if (video.readyState >= 3) { // already ready
         tick();
         return;
       }
@@ -460,15 +460,15 @@ document.addEventListener('DOMContentLoaded', () => {
   startBtn.addEventListener('click', (e) => {
     e.stopPropagation();
 
-    // Прячем стартовый экран, показываем загрузку
+    // Hiding start screen, showing loading screen
     startScreen.classList.add('hidden');
     setTimeout(() => { startScreen.style.display = 'none'; }, 900);
 
     loadingScreen.classList.add('active');
 
-    // Начинаем грузить всё медиа и ждём завершения
+    // Start loading all media and wait for completion
     preloadAllMedia(() => {
-      // Всё загружено → показываем контент
+      // Everything loaded → show content
       mainContent.classList.add('visible');
       playMusic();
       musicToggle.classList.add('visible');
