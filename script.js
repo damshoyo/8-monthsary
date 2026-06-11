@@ -400,12 +400,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function preloadAllMedia(onComplete) {
     const imageSrcs = [
-      'assets/images/we_основной.jpg',
-      'assets/images/we1.jpg',  'assets/images/we2.jpg',  'assets/images/we3.jpg',
-      'assets/images/we4.jpg',  'assets/images/we5.jpg',  'assets/images/we6.JPG',
-      'assets/images/we7.jpg',  'assets/images/we8.jpg',  'assets/images/we9.jpg',
-      'assets/images/we10.jpg', 'assets/images/we11.jpg', 'assets/images/we12.jpg',
-      'assets/images/we.jpg',   'assets/images/we_last.jpg'
+      'assets/images/kita.JPG',
+      'assets/images/makan1.JPG',  'assets/images/makan2.JPG',  'assets/images/makan3.JPG',
+      'assets/images/makan4.JPG',  'assets/images/memories1.JPG',  'assets/images/memories2.JPG',
+      'assets/images/memories3.JPG',  'assets/images/moment1.JPG',  'assets/images/moment2.JPG',
+      'assets/images/moment3.JPG ', 'assets/images/together1.JPG', 'assets/images/together2.JPG',
+      'assets/images/together3.JPG'
     ];
     const videoEls = Array.from(document.querySelectorAll('.story-video'));
 
